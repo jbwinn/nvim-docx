@@ -91,3 +91,5 @@ function M.handle_docx_save()
     utils.notify("Failed to save markdown back to DOCX", "error")
   end
 end
+
+return M

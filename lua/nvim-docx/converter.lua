@@ -68,3 +68,5 @@ function M.markdown_to_docx(md_path, docx_path)
   
   return vim.fn.filereadable(docx_path) == 1
 end
+
+return M

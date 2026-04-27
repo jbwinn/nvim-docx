@@ -36,3 +36,5 @@ function M.escape_path(path)
   -- Escape shell special characters in file paths
   return vim.fn.shellescape(path)
 end
+
+return M

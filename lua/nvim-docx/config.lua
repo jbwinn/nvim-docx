@@ -26,3 +26,5 @@ function M.setup(opts)
   
   return true
 end
+
+return M
